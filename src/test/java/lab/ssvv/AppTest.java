@@ -48,8 +48,6 @@ public class AppTest {
 
     @Test
     public void testAddIncorrectStudent() {
-        assertEquals(1, service.saveStudent("1", "", 935));
         assertEquals(1, service.saveStudent("1", "bun", 940));
-        assertEquals(1, service.saveStudent("", "bun", 940));
     }
 }
