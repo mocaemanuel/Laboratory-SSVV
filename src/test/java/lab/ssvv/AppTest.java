@@ -47,7 +47,7 @@ public class AppTest {
     }
 
     @Test
-    public void testAddStudentWithIncorrectUpperBoundGroup() {
+    public void testAddStudentWithIncorrectUpperBound() {
         assertEquals(1, service.saveStudent("1", "bun", 940));
     }
 
@@ -57,7 +57,7 @@ public class AppTest {
     }
 
     @Test
-    public void testAddStudentWithIncorrectLowerBoundGroup() {
+    public void testAddStudentWithIncorrectLowerBound() {
         assertEquals(1, service.saveStudent("1", "bun", 105));
     }
 
