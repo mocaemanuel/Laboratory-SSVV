@@ -4,6 +4,7 @@
     <list default="true" id="3f4e190f-436b-4a1e-9aef-cd21a0c2c554" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/lab/ssvv/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lab/ssvv/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lab/ssvv/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lab/ssvv/AppTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,18 +136,34 @@
       <updated>1615293721006</updated>
       <workItem from="1615293723203" duration="219000" />
       <workItem from="1615293960045" duration="2583000" />
-      <workItem from="1616433441388" duration="633000" />
+      <workItem from="1616433441388" duration="1694000" />
     </task>
+    <task id="LOCAL-00001" summary="More tests">
+      <created>1616434219731</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616434219731</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="More tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="More tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="93" y="93" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1616434162274">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="93" y="93" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.834@0.0.1536.834" timestamp="1616434162274" />
+    <state x="274" y="12" key="CommitChangelistDialog2" timestamp="1616434217896">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="274" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1616434217896" />
     <state width="1493" height="121" key="GridCell.Tab.0.bottom" timestamp="1616434184852">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -167,6 +184,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="277" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1615295625242" />
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1616434226617">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1616434226617" />
     <state x="463" y="149" width="609" height="536" key="find.popup" timestamp="1615295139944">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
