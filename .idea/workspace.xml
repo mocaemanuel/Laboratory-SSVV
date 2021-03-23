@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f4e190f-436b-4a1e-9aef-cd21a0c2c554" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lab/ssvv/AssignmentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lab/ssvv/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lab/ssvv/AppTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +46,7 @@
       <recent name="D:\University Stuff\Year 3 - Semester 6\Systems for Software Verification and Validation\Maven\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest">
+  <component name="RunManager" selected="JUnit.AssignmentTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LabSSVV" />
@@ -98,8 +101,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AssignmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LabSSVV" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab.ssvv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab.ssvv" />
+      <option name="MAIN_CLASS_NAME" value="lab.ssvv.AssignmentTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AssignmentTest" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.AppTest.testAddIncorrectStudent" />
         <item itemvalue="JUnit.AppTest.testAddCorrectStudent" />
@@ -134,7 +153,7 @@
       <updated>1615293721006</updated>
       <workItem from="1615293723203" duration="219000" />
       <workItem from="1615293960045" duration="2583000" />
-      <workItem from="1616433441388" duration="3139000" />
+      <workItem from="1616433441388" duration="5676000" />
     </task>
     <task id="LOCAL-00001" summary="More tests">
       <created>1616434219731</created>
@@ -150,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616435154815</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="More tests 3">
+      <created>1616436826288</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616436826288</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,41 +185,46 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="More tests" />
     <MESSAGE value="More tests 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="More tests 2" />
+    <MESSAGE value="More tests 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="More tests 3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="93" y="93" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1616434162274">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="93" y="93" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.834@0.0.1536.834" timestamp="1616434162274" />
-    <state x="274" y="12" key="CommitChangelistDialog2" timestamp="1616435153070">
+    <state x="274" y="12" key="CommitChangelistDialog2" timestamp="1616436824861">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="274" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1616435153070" />
-    <state width="1493" height="270" key="GridCell.Tab.0.bottom" timestamp="1616436812954">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="274" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1616436824861" />
+    <state width="1877" height="357" key="GridCell.Tab.0.bottom" timestamp="1616502532197">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="357" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1616502532197" />
     <state width="1493" height="270" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1616436812954" />
-    <state width="1493" height="270" key="GridCell.Tab.0.center" timestamp="1616436812953">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="357" key="GridCell.Tab.0.center" timestamp="1616502532197">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="357" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1616502532197" />
     <state width="1493" height="270" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1616436812953" />
-    <state width="1493" height="270" key="GridCell.Tab.0.left" timestamp="1616436812953">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="357" key="GridCell.Tab.0.left" timestamp="1616502532197">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="357" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1616502532197" />
     <state width="1493" height="270" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1616436812953" />
-    <state width="1493" height="270" key="GridCell.Tab.0.right" timestamp="1616436812954">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1877" height="357" key="GridCell.Tab.0.right" timestamp="1616502532197">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="357" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1616502532197" />
     <state width="1493" height="270" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1616436812954" />
     <state x="277" y="0" key="SettingsEditor" timestamp="1615295625242">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="277" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1615295625242" />
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1616435162236">
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1616436830015">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1616435162236" />
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1616436830015" />
     <state x="463" y="149" width="609" height="536" key="find.popup" timestamp="1615295139944">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
