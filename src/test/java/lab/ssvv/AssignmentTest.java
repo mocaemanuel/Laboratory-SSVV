@@ -52,4 +52,52 @@ public class AssignmentTest {
     public void testAddIncorrectAssignment() {
         assertEquals(1, service.saveTema("1", "Test Description", 4, 5));
     }
+
+    @Test
+    public void testAddIncorrectDeadlineAssignment() {
+        assertEquals(1, service.saveTema("1", "Test Description", 0, 5));
+        assertEquals(1, service.saveTema("1", "Test Description", 19, 5));
+    }
+
+    @Test
+    public void testAddIncorrectStartlineAssignment() {
+        assertEquals(1, service.saveTema("1", "Test Description", 5, 0));
+        assertEquals(1, service.saveTema("1", "Test Description", 5, 19));
+    }
+
+    @Test
+    public void testAddIncorrectStartWRTDeadAssig() {
+        assertEquals(1, service.saveTema("1", "Test Description", 5, 7));
+    }
+
+    @Test
+    public void testAddIncorrectDescAssignment() {
+        assertEquals(1, service.saveTema("1", "", 5, 7));
+    }
+
+    @Test
+    public void testAddIncorrectDescNullAssig() {
+        assertEquals(1, service.saveTema("1", null, 5, 7));
+    }
+
+    @Test
+    public void testAddCorrectDescAssig() {
+        assertEquals(1, service.saveTema("1", "Test Description", 5, 7));
+    }
+
+
+    @Test
+    public void testAddIncorrectIDAssig() {
+        assertEquals(1, service.saveTema("", "Test Description", 5, 7));
+    }
+
+    @Test
+    public void testAddIncorrectIDNullAssig() {
+        assertEquals(1, service.saveTema(null, "Test Description", 5, 7));
+    }
+
+    @Test
+    public void testAddCorrectIDAssignment() {
+        assertEquals(1, service.saveTema("1", "Test Description", 5, 7));
+    }
 }
