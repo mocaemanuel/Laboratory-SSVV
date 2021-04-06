@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f4e190f-436b-4a1e-9aef-cd21a0c2c554" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/lab/ssvv/IntegrationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lab/ssvv/AssignmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lab/ssvv/AssignmentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note.xml" beforeDir="false" afterPath="$PROJECT_DIR$/note.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/Service.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,14 +46,7 @@
       <recent name="D:\University Stuff\Year 3 - Semester 6\Systems for Software Verification and Validation\Maven\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AssignmentTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="LabSSVV" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.IntegrationTest">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LabSSVV" />
       <extension name="coverage">
@@ -63,22 +58,6 @@
       <option name="PACKAGE_NAME" value="lab.ssvv" />
       <option name="MAIN_CLASS_NAME" value="lab.ssvv.AppTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.testAddCorrectStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LabSSVV" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lab.ssvv.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lab.ssvv" />
-      <option name="MAIN_CLASS_NAME" value="lab.ssvv.AppTest" />
-      <option name="METHOD_NAME" value="testAddCorrectStudent" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,13 +93,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LabSSVV" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab.ssvv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab.ssvv" />
+      <option name="MAIN_CLASS_NAME" value="lab.ssvv.IntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationTest.testAddCorrectGrade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LabSSVV" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab.ssvv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lab.ssvv" />
+      <option name="MAIN_CLASS_NAME" value="lab.ssvv.IntegrationTest" />
+      <option name="METHOD_NAME" value="testAddCorrectGrade" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IntegrationTest" />
+        <item itemvalue="JUnit.IntegrationTest.testAddCorrectGrade" />
         <item itemvalue="JUnit.AssignmentTest" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.AppTest.testAddIncorrectStudent" />
-        <item itemvalue="JUnit.AppTest.testAddCorrectStudent" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +163,8 @@
       <workItem from="1615293960045" duration="2583000" />
       <workItem from="1616433441388" duration="8541000" />
       <workItem from="1616507861409" duration="6000" />
-      <workItem from="1617646994494" duration="293000" />
+      <workItem from="1617646994494" duration="2933000" />
+      <workItem from="1617707815978" duration="497000" />
     </task>
     <task id="LOCAL-00001" summary="More tests">
       <created>1616434219731</created>
@@ -183,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616502637456</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lab 4 Test assignment Home">
+      <created>1617647383602</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617647383602</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,50 +212,79 @@
     <MESSAGE value="More tests 2" />
     <MESSAGE value="More tests 3" />
     <MESSAGE value="Lab 4 Test assignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab 4 Test assignment" />
+    <MESSAGE value="Lab 4 Test assignment Home" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 4 Test assignment Home" />
   </component>
   <component name="WindowStateProjectService">
     <state x="93" y="93" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1616434162274">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="93" y="93" width="1350" height="648" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.834@0.0.1536.834" timestamp="1616434162274" />
-    <state x="-1577" y="15" key="CommitChangelistDialog2" timestamp="1616502635863">
+    <state x="-1577" y="15" key="CommitChangelistDialog2" timestamp="1617647382124">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1577" y="15" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1616502635863" />
+    <state x="-1577" y="15" key="CommitChangelistDialog2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1617647382124" />
     <state x="274" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1616436824861" />
-    <state width="1877" height="357" key="GridCell.Tab.0.bottom" timestamp="1617647367273">
+    <state width="1877" height="188" key="GridCell.Tab.0.bottom" timestamp="1617708338310">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="357" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1617647367273" />
+    <state width="1877" height="188" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1617708338310" />
     <state width="1493" height="270" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1616436812954" />
-    <state width="1877" height="357" key="GridCell.Tab.0.center" timestamp="1617647367273">
+    <state width="1877" height="188" key="GridCell.Tab.0.center" timestamp="1617708338310">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="357" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1617647367273" />
+    <state width="1877" height="188" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1617708338310" />
     <state width="1493" height="270" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1616436812953" />
-    <state width="1877" height="357" key="GridCell.Tab.0.left" timestamp="1617647367273">
+    <state width="1877" height="188" key="GridCell.Tab.0.left" timestamp="1617708338310">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="357" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1617647367273" />
+    <state width="1877" height="188" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1617708338310" />
     <state width="1493" height="270" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1616436812953" />
-    <state width="1877" height="357" key="GridCell.Tab.0.right" timestamp="1617647367273">
+    <state width="1877" height="188" key="GridCell.Tab.0.right" timestamp="1617708338310">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="357" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1617647367273" />
+    <state width="1877" height="188" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1617708338310" />
     <state width="1493" height="270" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1616436812954" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1617708286273">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1617708286273" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1617708286273">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1617708286273" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1617708286272">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1617708286272" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1617708286273">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1617708286273" />
     <state x="277" y="0" key="SettingsEditor" timestamp="1615295625242">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="277" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1615295625242" />
-    <state x="-1469" y="190" key="Vcs.Push.Dialog.v2" timestamp="1616502646336">
+    <state x="-1469" y="190" key="Vcs.Push.Dialog.v2" timestamp="1617647390409">
       <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="-1469" y="190" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1616502646336" />
+    <state x="-1469" y="190" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1617647390409" />
     <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1616436830015" />
-    <state x="463" y="149" width="609" height="536" key="find.popup" timestamp="1615295139944">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="-1341" y="188" width="762" height="675" key="find.popup" timestamp="1617708097154">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
+    <state x="-1341" y="188" width="762" height="675" key="find.popup/0.0.1536.834/-1920.0.1920.1050@-1920.0.1920.1050" timestamp="1617708097154" />
     <state x="463" y="149" width="609" height="536" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1615295139944" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/service/Service.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
