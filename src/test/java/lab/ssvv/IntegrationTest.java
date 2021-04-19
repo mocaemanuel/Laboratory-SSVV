@@ -62,4 +62,22 @@ public class IntegrationTest {
         assertEquals(0, service.saveStudent("1", "test", 935));
         assertEquals(0, service.saveNota("1", "1", 9, 7, "Very good"));
     }
+
+    @Test
+    public void testIitdStudent() {
+        assertEquals(0, service.saveStudent("1", "test", 935));
+    }
+
+    @Test
+    public void testIitdStudAssign() {
+        assertEquals(0, service.saveStudent("1", "test", 935));
+        assertEquals(0, service.saveTema("1", "Test Description", 6, 4));
+    }
+    @Test
+    public void testIitdStudAssignGrade() {
+        assertEquals(0, service.saveStudent("1", "test", 935));
+        assertEquals(0, service.saveTema("1", "Test Description", 6, 4));
+        assertEquals(0, service.saveNota("1", "1", 9, 7, "Very good"));
+    }
+
 }
